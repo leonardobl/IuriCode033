@@ -12,6 +12,9 @@ html, body {
   width: 100%;
   min-height: 100vh;
   font-family: 'Inter', sans-serif;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 
