@@ -89,6 +89,57 @@ const HomeTemplate = () => {
             ))}
           </S.WrapperCourses>
         </S.CoursesSection>
+
+        <S.Estagios>
+          <S.EstagiosCardRed>
+            <h3>Estágios e empregos</h3>
+          </S.EstagiosCardRed>
+          <S.EstagiosCardGray>
+            <S.EstagiosCardGrayWrapper>
+              <p>Lorem ipsum dolor sit amet</p>
+              <span>Publicado em 00/00/2000</span>
+              <a href="#">Mais mais sobre a vaga</a>
+            </S.EstagiosCardGrayWrapper>
+            <S.EstagiosCardGrayWrapper>
+              <p>Lorem ipsum dolor sit amet</p>
+              <span>Publicado em 00/00/2000</span>
+              <a href="#">Mais mais sobre a vaga</a>
+            </S.EstagiosCardGrayWrapper>
+            <S.EstagiosCardGrayWrapper>
+              <p>Lorem ipsum dolor sit amet</p>
+              <span>Publicado em 00/00/2000</span>
+              <a href="#">Mais mais sobre a vaga</a>
+            </S.EstagiosCardGrayWrapper>
+          </S.EstagiosCardGray>
+        </S.Estagios>
+
+        <S.Noticias>
+          <h2>Notícias</h2>
+          <S.WrapperCardsNoticias>
+            <S.CardNoticia>
+              <S.RedContainer />
+              <S.CardNoticiaContent>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <span>Postado em 00/00/00</span>
+              </S.CardNoticiaContent>
+            </S.CardNoticia>
+            <S.CardNoticia>
+              <S.RedContainer />
+              <S.CardNoticiaContent>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <span>Postado em 00/00/00</span>
+              </S.CardNoticiaContent>
+            </S.CardNoticia>
+            <S.CardNoticia>
+              <S.RedContainer />
+              <S.CardNoticiaContent>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <span>Postado em 00/00/00</span>
+              </S.CardNoticiaContent>
+            </S.CardNoticia>
+          </S.WrapperCardsNoticias>
+          <S.ButtonVerMaisNoticias>Ver mais notícias</S.ButtonVerMaisNoticias>
+        </S.Noticias>
       </S.Container>
     </LayoutTemplate>
   )
