@@ -3,6 +3,41 @@ import LayoutTemplate from '../layoutTemplate'
 import { Menu_enum } from '../../../enuns/menu_enum'
 import * as S from './styles'
 
+const courses = [
+  {
+    srcImg: 'assets/images/vacina.png',
+    title: 'enfermagem'
+  },
+  {
+    srcImg: 'assets/images/computador.png',
+    title: 'desenvolvimento de sistemas'
+  },
+  {
+    srcImg: 'assets/images/processo.png',
+    title: 'recursos humanos'
+  },
+  {
+    srcImg: 'assets/images/despesas.png',
+    title: 'administração'
+  },
+  {
+    srcImg: 'assets/images/cana-de-acucar.png',
+    title: 'açúcar e álcool'
+  },
+  {
+    srcImg: 'assets/images/agricultura.png',
+    title: 'agropecuária'
+  },
+  {
+    srcImg: 'assets/images/vaca.png',
+    title: 'zootecnia'
+  },
+  {
+    srcImg: 'assets/images/financeiro.png',
+    title: 'agronegócio'
+  }
+]
+
 const HomeTemplate = () => {
   return (
     <LayoutTemplate menuItemSelected={Menu_enum.INICIO}>
@@ -43,6 +78,17 @@ const HomeTemplate = () => {
             </p>
           </S.CardBlue>
         </S.WrapperCards>
+        <S.CoursesSection>
+          <h2>Cursos técnicos</h2>
+          <S.WrapperCourses>
+            {courses.map((item) => (
+              <S.CardCourse key={Math.random()}>
+                <img src={item.srcImg} alt={item.title} />
+                <p>{item.title}</p>
+              </S.CardCourse>
+            ))}
+          </S.WrapperCourses>
+        </S.CoursesSection>
       </S.Container>
     </LayoutTemplate>
   )
