@@ -9,8 +9,6 @@ export const Header = styled.header`
   align-items: center;
   padding: 160px 456px;
   gap: 8px;
-  position: absolute;
-  /* width: 1920px; */
   height: 538px;
   left: 0px;
   top: 100px;
@@ -33,5 +31,59 @@ export const Header = styled.header`
     line-height: 160%;
     text-align: center;
     color: #f3f4f6;
+  }
+`
+
+export const WrapperCards = styled.div`
+  display: flex;
+  height: 300px;
+`
+
+export const CardGray = styled.div`
+  background: #353436;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+
+  p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    text-align: center;
+    color: #ffffff;
+  }
+`
+export const CardRed = styled.div`
+  background: #b91c1c;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+
+  p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    text-align: center;
+    color: #ffffff;
+  }
+`
+export const CardBlue = styled.div`
+  background: #481a8f;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+
+  p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    text-align: center;
+    color: #ffffff;
   }
 `
