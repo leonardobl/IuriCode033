@@ -11,7 +11,7 @@ const menuItens = Object.values(Menu_enum).map((item) => item)
 const Menu = ({ menuItemSelected }: MenuProps) => {
   function returnPath(menuItem: string) {
     if (menuItem === 'Inicio') return '/'
-    if (menuItem === 'Cursos') return '/curso'
+    if (menuItem === 'Cursos') return '/cursos'
     if (menuItem === 'Vagas') return '/vagas'
     if (menuItem === 'Noticias') return '/noticias'
     if (menuItem === 'Contato') return '/contato'
