@@ -15,7 +15,7 @@ export const SectionCourse = styled.section`
   gap: 54px;
 
   @media (max-width: 420px) {
-    padding: 0;
+    padding: 40px 0;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -99,8 +99,8 @@ export const SectionCourseContentItem = styled.div`
   }
 `
 
-export const SectionObjective = styled.section`
-  background: #f3f4f6;
+export const SectionObjective = styled.section<{ bgc: boolean }>`
+  background: ${({ bgc }) => (bgc ? '#f3f4f6' : '#fff')};
   padding: 48px 350px;
 
   h3 {
@@ -118,5 +118,9 @@ export const SectionObjective = styled.section`
     font-size: 18px;
     line-height: 160%;
     color: #111827;
+  }
+
+  @media (max-width: 420px) {
+    padding: 40px 20px;
   }
 `

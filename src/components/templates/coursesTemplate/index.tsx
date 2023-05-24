@@ -49,8 +49,23 @@ const CoursesTemplate = () => {
           </S.SectionCourseContent>
         </S.SectionCourse>
 
-        <S.SectionObjective>
+        <S.SectionObjective bgc>
           <h3>Objetivos gerais</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vitae
+            vestibulum iaculis lacus aliquam convallis dolor risus. Velit vitae
+            in lectus facilisis arcu tempor. Tempus dolor convallis accumsan
+            nulla mi amet. Vulputate risus neque tellus faucibus molestie sem
+            mauris. Semper quis orci scelerisque lectus. Leo sollicitudin cursus
+            diam maecenas posuere at malesuada maecenas. Facilisis nunc nunc
+            pellentesque libero arcu et leo dignissim. Pretium nulla leo
+            pharetra, fermentum magnis. Odio molestie nec, vulputate tellus
+            tellus.
+          </p>
+        </S.SectionObjective>
+
+        <S.SectionObjective bgc={false}>
+          <h3>Objetivos específicos</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vitae
             vestibulum iaculis lacus aliquam convallis dolor risus. Velit vitae
